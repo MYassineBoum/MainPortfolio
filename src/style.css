@@ -15,6 +15,7 @@ nav{
     background: #013a63;
     height: 70px;
     width: 100%;
+    border-bottom: 3px solid #98c1d9;
 }
 
 label.logo{
@@ -72,6 +73,7 @@ li .active a{
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    transition: .2s;
 }
 
 @media (max-width: 952px){
@@ -119,6 +121,11 @@ li .active a{
 
 #check{
     display: none;
+}
+
+.checkbtn:hover{
+    color: #f9c74f;
+    transition: .2s;
 }
 
 .home{
