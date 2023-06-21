@@ -4,7 +4,7 @@ projectsButton = document.getElementById("prj");
 contactButton = document.getElementById("cnt");
 
 homeButton.addEventListener("click", function () {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 });
 
 aboutButton.addEventListener("click", function () {
