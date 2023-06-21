@@ -24,6 +24,12 @@ label.logo{
     font-size: 40px;
     padding: 50px;
     line-height: 70px;
+    transition: .2s;
+}
+
+label.logo:hover{
+    color: #e0fbfc;
+    transition: .2s;
 }
 
 nav ul{
@@ -139,24 +145,22 @@ li .active a{
 
 .home h1{
     color: #e0fbfc;
-    font-size: 40px;
-    
+    font-size: 30px;
+    padding-bottom: 15px;
 }
 
 .home h1 span{
     color: #fb8500;
-    font-size: 40px;
-    
 }
 
 .home h3{
     color: #fb8500; 
     font-size: 20px;
-    padding: 30px;
+    padding-bottom: 30px;
 }
 
 .home p{
     color: #98c1d9;
-    font-size: 40px;
+    font-size: 30px;
 }
 
