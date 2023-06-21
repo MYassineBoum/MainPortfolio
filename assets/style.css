@@ -234,6 +234,12 @@ li .active a{
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
+    transition: .2s;
+}
+
+.projects ul li a:hover{
+    color: #e0fbfc;
+    transition: .2s;
 }
 
 .prjct{
@@ -252,6 +258,6 @@ li .active a{
 }
 
 .prjct i:hover{
-    color: #023e8a;
+    color: #e0fbfc;
     transition: .2s;
 }
