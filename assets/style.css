@@ -261,3 +261,43 @@ li .active a{
     color: #e0fbfc;
     transition: .2s;
 }
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e0fbfc;
+    width: 100%;
+    min-height: 85vh;
+}
+
+.contact input{
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0fbfc;
+}
+
+.contact label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #fb8500;
+    color: #e0fbfc;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
