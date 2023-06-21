@@ -1,7 +1,7 @@
 # MainPortfolio
 
-###Deployment
+#Deployment
 vercel.app
 
-##Technologies
+#Technologies
 HTML, CSS, JavaScript.
