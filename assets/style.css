@@ -28,7 +28,7 @@ label.logo{
 }
 
 label.logo:hover{
-    color: #e0fbfc;
+    color: #ffb703;
     transition: .2s;
 }
 
@@ -53,7 +53,7 @@ nav ul li a{
     transition: .1s;
 }
 
-a.active, a:hover{
+nav ul li a.active, nav ul li a:hover{
     background: #293241;
     transition: .2s;
 }
@@ -69,7 +69,7 @@ li .active a{
 
 .active a{
     background: #293241;
-    color: #e0fbfc;
+    color: #ffb703;
 }
 
 .checkbtn{
@@ -98,7 +98,7 @@ li .active a{
     .checkbtn{
         display: block;
     }
-    ul{
+    nav ul{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -117,7 +117,7 @@ li .active a{
     .active a{
         background: none;
     }
-    a.active, a:hover{
+    nav ul li a.active, a:hover{
         background: #3d5a80;
         color: #fb8500;
     }
@@ -165,3 +165,93 @@ li .active a{
     font-size: 30px;
 }
 
+.about{
+    min-height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: 3px solid #fb8500;
+    transition: .2s;
+}
+
+.about img:hover{
+    border: 3px solid #98c1d9;
+    transition: .2s;
+}
+
+.about p{
+    padding-top: 15px;
+    width: 500px;
+    text-align: center;
+    color: #e0fbfc;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.about p span{
+    color: #f9c74f;
+    transition: .2s;
+}
+
+.about p span:hover{
+    color: #fb8500;
+    transition: .2s;
+}
+
+.projects{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 85vh;
+}
+
+.projects ul{
+    background-color: #98c1d9;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.projects ul li{
+    width: 400px;
+    
+}
+
+.projects ul li a{
+    line-height: 80px;
+    color: #003249;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.prjct{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.prjct i{
+    margin-right: 20px;
+    font-weight: bold;
+    color: #003249;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.prjct i:hover{
+    color: #023e8a;
+    transition: .2s;
+}
