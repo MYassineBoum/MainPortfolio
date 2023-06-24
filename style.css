@@ -140,13 +140,13 @@ li .active a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    margin-top: 65px;
     width: 100%;
 }
 
 .home h1{
     color: #e0fbfc;
-    font-size: 30px;
+    font-size: 46px;
     padding-bottom: 15px;
 }
 
@@ -156,27 +156,119 @@ li .active a{
 
 .home h3{
     color: #fb8500; 
-    font-size: 20px;
+    font-size: 28px;
     padding-bottom: 30px;
 }
 
 .home p{
     color: #98c1d9;
+    font-size: 46px;
+}
+
+@media (max-width: 760px){
+    .home h1{
+        font-size: 35px;
+    }
+    .home h3{
+        font-size: 25px;
+    }
+    .home p{
+        font-size: 35px;
+    }   
+}
+
+@media (max-width: 540px){
+    .home h1{
+        font-size: 30px;
+    }
+    .home h3{
+        font-size: 20px;
+    }
+    .home p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 430px){
+    .home h1{
+        font-size: 28px;
+    }
+    .home h3{
+        font-size: 18px;
+    }
+    .home p{
+        font-size: 28px;
+    }
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.social button {
+    width: 140px;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e0fbfc;
+    background-color: #fb8500;
+    transition: .2s;
+    height: 60px;
+}
+
+.social button:hover {
+    border-radius: 22px;
+    font-size: 26px;
+    color: #fb8500;
+    background-color: #e0fbfc;
+    transition: .2s;
+    transform: scale(1);
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.social ul i {
+    color: #e0fbfc;
     font-size: 30px;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.social ul i:hover {
+    background-image: linear-gradient(to left, #fb8500, #e0fbfc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.2s;
 }
 
 .about{
-    min-height: 85vh;
     width: 100%;
+    min-height: 80vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .about img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
     border-radius: 10%;
     border: 3px solid #fb8500;
     transition: .2s;
@@ -188,12 +280,11 @@ li .active a{
 }
 
 .about p{
-    padding-top: 15px;
-    width: 500px;
-    text-align: center;
+    width: 800px;
+    padding-left: 30px;
     color: #e0fbfc;
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .about p span{
@@ -204,6 +295,95 @@ li .active a{
 .about p span:hover{
     color: #fb8500;
     transition: .2s;
+}
+
+.about ul{
+    color:#e0fbfc;
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+@media (max-width: 1380px){
+    .about img{
+        width: 250px;
+        height: 250px;
+    }
+    .about p{
+        width: 700px;
+        font-size: 23px;
+    }
+}
+
+
+
+@media (max-width: 1000px){
+    .about{
+        flex-direction: column;
+    }
+
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .about p{
+        text-align: center;
+        padding-top: 40px;
+        width: 700px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 795px){
+    .about img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .about p{
+        width: 500px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 620px){
+    .about img{
+        width: 280px;
+        height: 280px;
+    }
+
+    .about p{
+        width: 500px;
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 550px){
+    .about img{
+        width: 240px;
+        height: 240px;
+    }
+
+    .about p{
+        width: 450px;
+        font-size: 22px;
+    }    
+}
+
+@media (max-width: 500px){
+    .about img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .about p{
+        width: 400px;
+        font-size: 20px;
+    }      
 }
 
 .projects{
