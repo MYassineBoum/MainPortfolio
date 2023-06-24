@@ -272,6 +272,7 @@ li .active a{
     background-image: linear-gradient(to left, #fb8500, #e0fbfc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-tap-highlight-color: transparent;
     transition: 0.2s;
 }
 
