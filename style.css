@@ -201,6 +201,20 @@ li .active a{
     }
 }
 
+@media (max-width: 410px){
+    .home h1{
+        font-size: 23px;
+    }
+    .home h3{
+        font-size: 17px;
+    }
+    .home p{
+        font-size: 23px;
+    }
+}
+
+
+
 .social {
     display: flex;
     flex-direction: column;
@@ -254,6 +268,31 @@ li .active a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.2s;
+}
+
+@media (max-width: 370px){
+    .home h1{
+        font-size: 20px;
+    }
+    .home h3{
+        font-size: 15px;
+    }
+    .home p{
+        font-size: 20px;
+    }
+    .social button{
+        font-size: 17px;
+        height: 50px;
+        width: 130px;
+    }
+    .social ul i{
+        font-size: 25px;
+        padding: 15px;
+    }
+    .social button:hover{
+        font-size: 18px;
+    }
+
 }
 
 .about{
