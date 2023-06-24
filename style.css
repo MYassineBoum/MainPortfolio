@@ -320,6 +320,11 @@ li .active a{
     transition: .2s;
 }
 
+.about img:active{
+    padding: 8px;
+    transition: .1s;
+}
+
 .about p{
     width: 800px;
     padding-left: 30px;
