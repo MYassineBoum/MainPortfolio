@@ -20,16 +20,17 @@ nav{
 
 label.logo{
     color: #fb8500;
-    font-weight: bold;
     font-size: 40px;
-    padding: 50px;
+    padding: 0 50px;
+    font-weight: bold;
     line-height: 70px;
     transition: .2s;
 }
 
 label.logo:hover{
-    color: #ffb703;
+    color: #e0fbfc;
     transition: .2s;
+    padding: 0 60px;
 }
 
 nav ul{
