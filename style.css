@@ -142,7 +142,7 @@ li .active a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 65px;
+    min-height: 85vh;
     width: 100%;
 }
 
@@ -222,6 +222,10 @@ li .active a{
     flex-direction: column;
     padding-top: 50px;
     align-items: center;
+    -webkit-tap-highlight-color:transparent;
+    -moz-tap-highlight-color:transparent;
+    -o-tap-highlight-color:transparent;
+    tap-highlight-color:transparent;
 }
 
 .social button {
@@ -250,9 +254,6 @@ li .active a{
 }
 
 .social ul {
-    -webkit-tap-highlight-color: transparent;
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -261,7 +262,7 @@ li .active a{
 }
 
 .social ul i {
-    -webkit-tap-highlight-color: transparent;
+    outline: none;
     color: #e0fbfc;
     font-size: 30px;
     padding: 20px;
@@ -269,10 +270,9 @@ li .active a{
 }
 
 .social ul i:hover {
-    background-image: linear-gradient(to left, #fb8500, #e0fbfc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+    outline: none;
+    color: #fb8500;
     transition: 0.2s;
 }
 
@@ -302,8 +302,9 @@ li .active a{
 }
 
 .about{
+    padding-top: 40px;
     width: 100%;
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -334,6 +335,7 @@ li .active a{
     padding-left: 30px;
     color: #e0fbfc;
     font-size: 25px;
+    text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -345,16 +347,6 @@ li .active a{
 .about p span:hover{
     color: #fb8500;
     transition: .2s;
-}
-
-.about ul{
-    color:#e0fbfc;
-    font-size: 30px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
 }
 
 @media (max-width: 1380px){
@@ -381,7 +373,6 @@ li .active a{
     }
 
     .about p{
-        text-align: center;
         padding-top: 40px;
         width: 700px;
         font-size: 25px;
@@ -442,7 +433,6 @@ li .active a{
         height: 170px;
     }
     .about p{
-        text-align: left;
         font-size: 17px;
         width: 340px;
     }
@@ -502,6 +492,14 @@ li .active a{
 .prjct i:hover{
     color: #e0fbfc;
     transition: .2s;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 85vh;
 }
 
 .contact form{
