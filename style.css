@@ -237,6 +237,7 @@ li .active a{
     background-color: #fb8500;
     transition: .2s;
     height: 60px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .social button:hover {
