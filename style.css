@@ -250,6 +250,7 @@ li .active a{
 }
 
 .social ul {
+    -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -260,6 +261,7 @@ li .active a{
 }
 
 .social ul i {
+    -webkit-tap-highlight-color: transparent;
     color: #e0fbfc;
     font-size: 30px;
     padding: 20px;
