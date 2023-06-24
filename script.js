@@ -4,17 +4,17 @@ projectsButton = document.getElementById("prj");
 contactButton = document.getElementById("cnt");
 
 homeButton.addEventListener("click", function () {
-    window.location.href = "index.html";
+    window.location.replace("index.html");
 });
 
 aboutButton.addEventListener("click", function () {
-    window.location.href = "about.html";
+    window.location.replace("about.html");
 });
 
 projectsButton.addEventListener("click", function () {
-    window.location.href = "projects.html";
+    window.location.replace("projects.html");
 });
 
 contactButton.addEventListener("click", function () {
-    window.location.href = "contact.html";
+    window.location.replace("contact.html");
 });
