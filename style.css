@@ -439,8 +439,6 @@ li .active a{
 }
 
 .projects{
-    list-style: none;
-    text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -449,49 +447,89 @@ li .active a{
     min-height: 85vh;
 }
 
-.projects ul{
-    background-color: #98c1d9;
-    width: 400px;
+.projects p{
+    color: #fb8500;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.projects #box{
+    background-color: #e0fbfc;
+    padding: 15px;
     border-radius: 10px;
+    width: 500px;
+    margin-bottom: 40px;
 }
 
-.projects ul li{
-    width: 400px;
-    
-}
-
-.projects ul li a{
-    line-height: 80px;
-    color: #003249;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 20px;
-    transition: .2s;
-}
-
-.projects ul li a:hover{
-    color: #e0fbfc;
-    transition: .2s;
-}
-
-.prjct{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.prjct i{
-    margin-right: 20px;
+.projects #box label{
+    font-size: 25px;
     font-weight: bold;
     color: #003249;
-    font-size: 20px;
-    cursor: pointer;
     transition: .2s;
 }
 
-.prjct i:hover{
-    color: #e0fbfc;
+.projects #box label:hover{
+    color: #fb8500;
+    padding: 0 20px;
+}
+
+.projects #box a{
+    font-size: 25px;
+    float: right;
+    color: #003249;
+    background: none;
+    background-color: none;
     transition: .2s;
+}
+
+.projects #box a:hover{
+    color: #fb8500;
+}
+
+@media (max-width: 660px){
+    .projects p{
+        font-size: 20px;
+    }
+    .projects #box{
+        width: 400px;
+    }
+    .projects #box label{
+        font-size: 20px;
+    }
+    .projects #box a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 490px){
+    .projects p{
+        font-size: 15px;
+    }
+    .projects #box{
+        width: 300px;
+    }
+    .projects #box label{
+        font-size: 18px;
+    }
+    .projects #box a{
+        font-size: 18px;
+    }   
+}
+
+@media (max-width: 390px){
+    .projects p{
+        font-size: 13px;
+    }
+    .projects #box{
+        width: 250px;
+    }
+    .projects #box label{
+        font-size: 15px;
+    }
+    .projects #box a{
+        font-size: 15px;
+    }   
 }
 
 .contact{
@@ -540,4 +578,16 @@ li .active a{
     width: 100px;
     cursor: pointer;
     margin-top: 15px;
+}
+
+@media (max-width: 550px){
+    .contact input{
+        width: 300px;
+    }
+}
+
+@media (max-width: 390px){
+    .contact input{
+        width: 250px;
+    }
 }
