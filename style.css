@@ -339,7 +339,7 @@ li .active a{
 .about ul{
     list-style: none;
     padding-left: 30px;
-    width: 100%;
+    width: 350px;
 }
 
 .about ul li{
@@ -421,6 +421,7 @@ li .active a{
     }
     .about ul{
         padding-top: 20px;
+        width: 100%;
     }
     .about ul li{
         font-size: 25px;
