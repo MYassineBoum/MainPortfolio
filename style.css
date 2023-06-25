@@ -275,7 +275,7 @@ li .active a{
     transition: 0.1s;
 }
 
-.social ul li a:hover {
+.social ul li a:hover  {
     color: #fb8500;
 }
 
@@ -551,60 +551,98 @@ li .active a{
 
 .contact{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 85vh;
-}
-
-.contact form{
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #e0fbfc;
     width: 100%;
     min-height: 85vh;
 }
 
-.contact input{
-    margin-top: 8px;
-    margin-bottom: 20px;
-    padding: 12px;
-    width: 400px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: #e0fbfc;
-}
-
-.contact label{
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.contact button{
-    padding: 10px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: #fb8500;
+.contact h1 {
     color: #e0fbfc;
+    font-size: 50px;
     font-weight: bold;
-    font-size: 15px;
-    width: 100px;
-    cursor: pointer;
-    margin-top: 15px;
+    padding-bottom: 40px;
 }
 
-@media (max-width: 550px){
-    .contact input{
-        width: 300px;
+.contact p {
+    color: #98c1d9;
+    font-size: 25px;
+    text-align: center;
+    width: 800px;
+}
+
+.contact button {
+    width: 200px;
+    padding: 15px;
+    margin: 60px;
+    border: 2px solid #fb8500;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 70px;
+    color: #fb8500;
+    transition: .3s;
+}
+
+.contact button:hover {
+    background-color: #3d5a80;
+}
+
+@media (max-width: 859px) {
+    .contact p {
+        width: 600px;
     }
 }
 
-@media (max-width: 390px){
-    .contact input{
-        width: 250px;
+@media (max-width: 700px) {
+    .contact p {
+        width: 500px;
+    }
+}
+
+@media (max-width: 580px) {
+    .contact h1 {
+        font-size: 40px;
+    }
+    .contact p {
+        width: 450px;
+    }
+    .contact button {
+        width: 180px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact h1 {
+        font-size: 30px;
+    }
+    .contact p {
+        width: 400px;
+    }
+    .contact button {
+        width: 150px;
+    }
+}
+
+@media (max-width: 430px) {
+    .contact p {
+        width: 350px;
+    }
+    .contact button {
+        width: 130px;
+    }
+}
+
+@media (max-width: 380px) {
+    .contact p {
+        width: 280px;
+    }
+    .contact button {
+        width: 150px;
     }
 }
