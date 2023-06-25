@@ -362,7 +362,7 @@ li .active a{
 }
 
 .about ul li:hover{
-    padding-left: 30px;
+    padding-left: 20px;
     color: #fb8500;
 }
 
@@ -382,31 +382,31 @@ li .active a{
     cursor: default;
     border: none;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     height: 60px;
 }
 
 .about #edu {
-    color: #003249;
-    background-color: #e0fbfc;
-    transition: .1s;
+    border: 2px solid #e0fbfc;
+    background: transparent;
+    color: #fb8500;
+    transition: .2s;
 }
 
 .about #edu:hover {
-    color: #fb8500;
+    background-color: #3d5a80;
 }
 
 .about #mor {
     border: 2px solid #fb8500;
     background: transparent;
     color: #e0fbfc;
-    transition: .1s;
+    transition: .2s;
 }
 
 .about #mor:hover {
-    border: 2px solid #e0fbfc;
-    color: #fb8500;
+    background-color: #3d5a80;
 }
 
 @media (max-width: 830px){
@@ -426,10 +426,10 @@ li .active a{
     }
     .about ul{
         padding-top: 20px;
-        width: 100%;
+    
     }
     .about ul li{
-        font-size: 25px;
+        font-size: 20px;
     }
     .about .additional button{
         width: 140px;
