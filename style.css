@@ -260,6 +260,11 @@ li .active a{
 
 .social ul li{
     padding: 20px;
+    transition: .2s;
+}
+
+.social ul li:hover {
+    padding-bottom: 35px;
 }
 
 .social ul li a {
@@ -271,7 +276,7 @@ li .active a{
 }
 
 .social ul li a:hover {
-    color: #98c1d9;
+    color: #fb8500;
 }
 
 @media (max-width: 370px){
