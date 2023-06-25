@@ -74,12 +74,12 @@ li .active a{
 }
 
 .checkbtn{
-    font-size: 20px;
+    font-size: 25px;
+    cursor: default;
     color: #fb8500;
     float: right;
     line-height: 70px;
     margin-right: 40px;
-    cursor: pointer;
     display: none;
     transition: .2s;
 }
@@ -223,17 +223,13 @@ li .active a{
     flex-direction: column;
     padding-top: 50px;
     align-items: center;
-    -webkit-tap-highlight-color:transparent;
-    -moz-tap-highlight-color:transparent;
-    -o-tap-highlight-color:transparent;
-    tap-highlight-color:transparent;
 }
 
 .social button {
     width: 140px;
     padding: 15px;
     outline: none;
-    cursor: pointer;
+    cursor: default;
     border: none;
     border-radius: 20px;
     font-size: 25px;
@@ -262,17 +258,18 @@ li .active a{
     padding-top: 60px;
 }
 
-.social ul i {
-    outline: none;
-    color: #e0fbfc;
-    font-size: 30px;
+.social ul li{
     padding: 20px;
-    transition: 0.2s;
 }
 
-.social ul i:hover {
-    outline: 0;
-    outline: none;
+.social ul li a {
+    font-size: 30px;
+    cursor: default;
+    color: #e0fbfc;
+    background: none;
+}
+
+.social ul li a:hover {
     color: #fb8500;
     transition: 0.2s;
 }
