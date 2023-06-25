@@ -255,6 +255,7 @@ li .active a{
     flex-direction: row;
     align-items: center;
     padding-top: 60px;
+    height: 50px;
 }
 
 .social ul li{
@@ -266,11 +267,11 @@ li .active a{
     cursor: default;
     color: #e0fbfc;
     background: none;
+    transition: 0.1s;
 }
 
 .social ul li a:hover {
-    color: #fb8500;
-    transition: 0.2s;
+    color: #98c1d9;
 }
 
 @media (max-width: 370px){
