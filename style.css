@@ -24,12 +24,11 @@ label.logo{
     padding: 0 50px;
     font-weight: bold;
     line-height: 70px;
-    transition: .2s;
+    transition: .1s;
 }
 
 label.logo:hover{
     color: #e0fbfc;
-    transition: .2s;
     padding: 0 60px;
 }
 
