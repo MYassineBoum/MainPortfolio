@@ -228,25 +228,25 @@ li .active a{
     width: 140px;
     padding: 15px;
     outline: none;
-    cursor: default;
-    border: none;
-    border-radius: 20px;
-    font-size: 25px;
+    cursor: pointer;
+    background: none;
+    border: 3px solid #fb8500;
+    border-radius: 10px;
+    font-size: 20px;
     font-weight: bold;
-    color: #e0fbfc;
-    background-color: #fb8500;
+    color: #fb8500;
+    background-color: transparent;
     transition: .2s;
     height: 60px;
     -webkit-tap-highlight-color: transparent;
 }
 
+.social a {
+    background: none;
+}
+
 .social button:hover {
-    border-radius: 22px;
-    font-size: 26px;
-    color: #fb8500;
-    background-color: #e0fbfc;
-    transition: .2s;
-    transform: scale(1);
+    background-color: #3d5a80;
 }
 
 .social ul {
@@ -290,16 +290,12 @@ li .active a{
         font-size: 20px;
     }
     .social button{
-        font-size: 17px;
-        height: 50px;
         width: 130px;
+        height: 60px;
+        font-size: 17px;
     }
     .social ul i{
         font-size: 25px;
-        padding: 15px;
-    }
-    .social button:hover{
-        font-size: 18px;
     }
 
 }
