@@ -438,6 +438,11 @@ li .active a{
     height: 5px;
     background-color: #fb8500;
     margin: 10px auto;
+    transition: .2s;
+}
+
+.about .info h2:hover::after{
+    width: 60px;
 }
 
 .about .info p{
@@ -470,6 +475,11 @@ li .active a{
     height: 5px;
     background-color: #fb8500;
     margin: 10px auto;
+    transition: .2s;
+}
+
+.about .tools h2:hover::after{
+    width: 220px;
 }
 
 .about .tools .row{
