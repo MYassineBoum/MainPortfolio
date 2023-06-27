@@ -424,16 +424,6 @@ li .active a{
     width: 100%;
 }
 
-.about .info .infoback{
-    border-radius: 10px;
-    padding: 20px;
-    transition: 0.2s;
-}
-
-.about .info .infoback:hover{
-    background-color: #254165;
-}
-
 .about .info h2{
     text-align: center;
     color: #e0fbfc;
@@ -462,7 +452,8 @@ li .active a{
 .about .tools{
     width: 100%;
     height: 100vh;
-    padding: 0 8%;    
+    padding: 0 8%;
+    padding-top: 40px;
 }
 
 .about .tools h2{
@@ -489,7 +480,8 @@ li .active a{
 }
 
 .about .tools .tech{
-    cursor: pointer;
+    cursor: default;
+    background: none;
     background-color: #3d5a80;
     border-radius: 10px;
     padding: 10px;
@@ -509,13 +501,17 @@ li .active a{
 }
 
 .about .tools .tech:hover i{
-    display: block;
+    font-size: 100px;
+    height: auto;
+    opacity: 1;
+    transition: .2s;
 }
 
 .about .tools .tech i{
     color: #fb8500;
-    font-size: 90px;
-    display: none;
+    font-size: 0px;
+    opacity: 0;
+    height: 0;
 }
 
 .about .tools .tech p{
