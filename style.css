@@ -489,7 +489,7 @@ li .active a{
     grid-gap: 30px;
 }
 
-.about .tools .tech{
+.about .tools .tech {
     cursor: default;
     background: none;
     background-color: #3d5a80;
@@ -500,10 +500,27 @@ li .active a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: backhover 4s infinite;
 }
 
-.about .tools .tech:hover{
+.about .tools .tech:hover {
     background: linear-gradient(45deg, #3d5a80, #254165);
+    transition: .2s;
+}
+
+@keyframes backhover{
+    0%{
+        background-color: #254165;
+    }
+    30%{
+        background-color: #135280;
+    }
+    60%{
+        background-color: #324f75;
+    }
+    100%{
+        background-color: #254165;
+    }
 }
 
 .about .tools .tech:hover p{

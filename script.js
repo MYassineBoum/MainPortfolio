@@ -1,8 +1,8 @@
-homeButton = document.getElementById("hom");
-aboutButton = document.getElementById("abt");
-projectsButton = document.getElementById("prj");
-contactButton = document.getElementById("cnt");
-logoButton = document.getElementsByClassName("logo")[0];
+let homeButton = document.getElementById("hom");
+let aboutButton = document.getElementById("abt");
+let projectsButton = document.getElementById("prj");
+let contactButton = document.getElementById("cnt");
+let logoButton = document.getElementsByClassName("logo")[0];
 
 logoButton.addEventListener("click", function () {
     window.location.replace("index.html");
