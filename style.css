@@ -504,12 +504,12 @@ li .active a{
     font-size: 100px;
     height: auto;
     opacity: 1;
-    transition: .3s;
+    transition: .2s;
 }
 
 .about .tools .tech i{
     color: #fb8500;
-    font-size: 180px;
+    font-size: 0px;
     opacity: 0;
     height: 0;
 }
