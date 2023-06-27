@@ -414,151 +414,114 @@ li .active a{
     padding-top: 40px;
     width: 100%;
     min-height: 85vh;
+}
+
+.about .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about .info .infoback{
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+.about .info .infoback:hover{
+    background-color: #254165;
+}
+
+.about .info h2{
+    text-align: center;
+    color: #e0fbfc;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about .info h2::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 5px;
+    background-color: #fb8500;
+    margin: 10px auto;
+}
+
+.about .info p{
+    padding: 20px;
+    width: 700px;
+    color: #98c1d9;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about .tools{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;    
+}
+
+.about .tools h2{
+    text-align: center;
+    color: #e0fbfc;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about .tools h2::after{
+    content: '';
+    display: block;
+    width: 250px;
+    height: 5px;
+    background-color: #fb8500;
+    margin: 10px auto;
+}
+
+.about .tools .row{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.about .tools .tech{
+    cursor: pointer;
+    background-color: #3d5a80;
+    border-radius: 10px;
+    padding: 10px;
+    height: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.about .info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
+.about .tools .tech:hover{
+    background: linear-gradient(45deg, #3d5a80, #254165);
 }
 
-.about img{
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    border-radius: 10%;
-    border: 3px solid #fb8500;
-    transition: .2s;
+.about .tools .tech:hover p{
+    display: none;
 }
 
-.about img:hover{
-    border: 3px solid #98c1d9;
-    transition: .2s;
+.about .tools .tech:hover i{
+    display: block;
 }
 
-.about img:active{
-    padding: 8px;
-    transition: .1s;
+.about .tools .tech i{
+    color: #fb8500;
+    font-size: 90px;
+    display: none;
 }
 
-.about ul{
-    list-style: none;
-    padding-left: 30px;
-    width: 350px;
-}
-
-.about ul li{
-    padding: 10px;
-    text-align: start;
-    font-size: 20px;
+.about .tools .tech p{
     color: #e0fbfc;
-    transition: .2s;
-}
-
-.about ul li::before{
-    content: "▹";
-    color: #fb8500;
-    padding-right: 10px;
-}
-
-.about ul li:hover{
-    padding-left: 20px;
-    color: #fb8500;
-}
-
-.about .additional {
-    padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.about .additional button {
-    width: 140px;
-    padding: 15px;
-    margin: 10px;
-    outline: none;
-    cursor: default;
-    border: none;
+    font-size: 30px;
     font-weight: bold;
-    border-radius: 10px;
-    font-size: 20px;
-    height: 60px;
-}
-
-.about #edu {
-    border: 2px solid #e0fbfc;
-    background: transparent;
-    color: #fb8500;
-    transition: .2s;
-}
-
-.about #edu:hover {
-    background-color: #3d5a80;
-}
-
-.about #mor {
-    border: 2px solid #fb8500;
-    background: transparent;
-    color: #e0fbfc;
-    transition: .2s;
-}
-
-.about #mor:hover {
-    background-color: #3d5a80;
-}
-
-@media (max-width: 830px){
-    .about img{
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media (max-width: 720px){
-    .about .info{
-        flex-direction: column;
-    }
-    .about img{
-        width: 250px;
-        height: 250px;
-    }
-    .about ul{
-        padding-top: 20px;
-    
-    }
-    .about ul li{
-        font-size: 20px;
-    }
-    .about .additional button{
-        width: 140px;
-        padding: 10px;
-        font-size: 20px;
-        height: 60px;
-    }
-}
-
-@media (max-width: 510px){
-    .about img{
-        width: 200px;
-        height: 200px;
-    }
-    .about ul li{
-        font-size: 20px;
-    }
-    .about .additional button{
-        width: 120px;
-        padding: 10px;
-        font-size: 15px;
-        height: 50px;
-    }
 }
 
 .projects{
