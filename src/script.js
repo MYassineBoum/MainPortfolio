@@ -15,6 +15,10 @@ function loadingMain () {
     );
 }
 
+if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+    window.location = "/MainPortfolio/index.html";
+}
+
 logoButton.addEventListener("click", function () {
     window.location = "/MainPortfolio/src/home.html";
 });
