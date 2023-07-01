@@ -11,7 +11,7 @@ function loadingMain () {
             preloader.style.display = 'none';
             window.location.replace("home.html");
         },
-        1500
+        2000
     );
 }
 
