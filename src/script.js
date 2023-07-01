@@ -9,28 +9,28 @@ function loadingMain () {
     setTimeout(
         function () {
             preloader.style.display = 'none';
-            window.location.replace("home.html");
+            window.location = "/MainPortfolio/src/home.html";
         },
         2000
     );
 }
 
 logoButton.addEventListener("click", function () {
-    window.location.replace("home.html");
+    window.location = "/MainPortfolio/src/home.html";
 });
 
 homeButton.addEventListener("click", function () {
-    window.location.replace("home.html");
+    window.location = "/MainPortfolio/src/home.html";
 });
 
 aboutButton.addEventListener("click", function () {
-    window.location.replace("about.html");
+    window.location = "/MainPortfolio/src/about.html";
 });
 
 projectsButton.addEventListener("click", function () {
-    window.location.replace("projects.html");
+    window.location = "/MainPortfolio/src/projects.html";
 });
 
 contactButton.addEventListener("click", function () {
-    window.location.replace("contact.html");
+    window.location = "/MainPortfolio/src/contact.html";
 });
