@@ -11,6 +11,16 @@ body{
     font-family: monospace;
 }
 
+#loader{
+    width: 100%;
+    height: 100vh;
+    background: #003249 
+    url('/MainPortfolio/images/loader.gif')
+    no-repeat center;
+    z-index: 99999;
+    position: fixed;
+}
+
 nav{
     background: #013a63;
     height: 70px;
@@ -545,6 +555,12 @@ li .active a{
     color: #e0fbfc;
     font-size: 30px;
     font-weight: bold;
+}
+
+@media (max-width: 720px){
+    .about .info p{
+        width: 550px;
+    }
 }
 
 .projects{

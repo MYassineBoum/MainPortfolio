@@ -3,13 +3,24 @@ let aboutButton = document.getElementById("abt");
 let projectsButton = document.getElementById("prj");
 let contactButton = document.getElementById("cnt");
 let logoButton = document.getElementsByClassName("logo")[0];
+let preloader = document.getElementById("loader");
+
+function loadingMain () {
+    setTimeout(
+        function () {
+            preloader.style.display = 'none';
+            window.location.replace("home.html");
+        },
+        1500
+    );
+}
 
 logoButton.addEventListener("click", function () {
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 });
 
 homeButton.addEventListener("click", function () {
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 });
 
 aboutButton.addEventListener("click", function () {
