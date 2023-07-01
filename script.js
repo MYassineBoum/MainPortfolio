@@ -9,11 +9,17 @@ function loadingMain () {
     setTimeout(
         function () {
             preloader.style.display = 'none';
-            window.location.replace("home.html");
         },
         1500
     );
 }
+
+setTimeout(
+    function () {
+        window.location.replace("home.html");
+    },
+    1700
+);
 
 logoButton.addEventListener("click", function () {
     window.location.replace("home.html");
