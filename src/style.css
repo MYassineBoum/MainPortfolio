@@ -176,12 +176,12 @@ li .active a{
     padding: 5px;
     filter: drop-shadow(10px 10px 4px #324f75);
     margin-right: 30px;
-    transition: .4s;
+    transition: .1s;
 }
 
 .home .general img:hover{
-    transform: matrix(1.08,0,0,1.08,0,0);
-    filter: drop-shadow(5px 5px 5px #549ec8);
+    transform: matrix(0.96,0,0,0.96,0,0);
+    filter: drop-shadow(5px 5px 6px #549ec8);
     opacity: .8;
 }
 
