@@ -16,7 +16,7 @@ function loadingMain () {
 }
 
 if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
-    window.location = "index.html";
+    window.location = "/index.html";
 }
 
 logoButton.addEventListener("click", function () {
