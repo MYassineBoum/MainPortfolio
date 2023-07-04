@@ -9,32 +9,32 @@ function loadingMain () {
     setTimeout(
         function () {
             preloader.style.display = 'none';
-            window.location = "/MainPortfolio/src/home.html";
+            window.location = "/src/home.html";
         },
         2000
     );
 }
 
 if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
-    window.location = "/MainPortfolio/index.html";
+    window.location = "index.html";
 }
 
 logoButton.addEventListener("click", function () {
-    window.location = "/MainPortfolio/src/home.html";
+    window.location = "/src/home.html";
 });
 
 homeButton.addEventListener("click", function () {
-    window.location = "/MainPortfolio/src/home.html";
+    window.location = "/src/home.html";
 });
 
 aboutButton.addEventListener("click", function () {
-    window.location = "/MainPortfolio/src/about.html";
+    window.location = "/src/about.html";
 });
 
 projectsButton.addEventListener("click", function () {
-    window.location = "/MainPortfolio/src/projects.html";
+    window.location = "/src/projects.html";
 });
 
 contactButton.addEventListener("click", function () {
-    window.location = "/MainPortfolio/src/contact.html";
+    window.location = "/src/contact.html";
 });

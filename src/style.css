@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 100vh;
     background: #003249 
-    url('/MainPortfolio/images/loader.gif')
+    url('/images/loader.gif')
     no-repeat center;
     z-index: 99999;
     position: fixed;
@@ -173,15 +173,15 @@ li .active a{
     width: 230px;
     height: 230px;
     border-radius: 10px;
-    border: 5px solid #e0fbfc;
     padding: 5px;
+    filter: drop-shadow(10px 10px 4px #324f75);
     margin-right: 30px;
     transition: .2s;
 }
 
 .home .general img:hover{
-    padding: 8px;
-    opacity: 0.6;
+    transform: matrix(1.08,0,0,1.08,0,0);
+    opacity: .8;
 }
 
 .home h1{
